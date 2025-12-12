@@ -3109,3 +3109,442 @@ Which is a best practice for workload architecture?**
 **Answer: SNS**
 
 ---
+### **Q281. Which AWS service enables event-driven integration between applications?**
+
+* SNS
+* EventBridge
+* SQS
+* Step Functions
+
+**Answer: EventBridge**
+
+---
+
+### **Q282. EventBridge enables applications to react to:**
+
+* API Gateway throttling
+* Changes in AWS services and SaaS applications
+* EC2 CPU metrics
+* VPC routing
+
+**Answer: Changes in AWS services and SaaS applications**
+
+---
+
+### **Q283. AWS Step Functions allow you to:**
+
+* Run Kubernetes clusters
+* Coordinate multiple AWS services into workflows
+* Manage IAM policies
+* Manage DNS routing
+
+**Answer: Coordinate multiple AWS services into workflows**
+
+---
+
+### **Q284. Step Functions are useful for:**
+
+* Serverless workflow orchestration
+* Configuring VPC routing tables
+* Reducing EC2 cost
+* Storing temporary data
+
+**Answer: Serverless workflow orchestration**
+
+---
+
+### **Q285. Which AWS service provides a Git-compatible repository?**
+
+* CodeStar
+* CodeCommit
+* S3
+* CloudTrail
+
+**Answer: CodeCommit**
+
+---
+
+### **Q286. CodeCommit provides:**
+
+* Automated deployment
+* Source control for code
+* Container orchestration
+* Log processing
+
+**Answer: Source control for code**
+
+---
+
+### **Q287. AWS CodeBuild is used to:**
+
+* Automate scaling of containers
+* Run build/test jobs
+* Manage IAM roles
+* Provision EC2 instances
+
+**Answer: Run build/test jobs**
+
+---
+
+### **Q288. AWS CodeDeploy automates:**
+
+* Code commit operations
+* Software deployments to EC2, Lambda, or on-prem servers
+* Auto Scaling Group creation
+* Database schema migration
+
+**Answer: Software deployments to EC2, Lambda, or on-prem servers**
+
+---
+
+### **Q289. AWS CodePipeline is used for:**
+
+* CI/CD automation
+* DNS routing
+* VPC configuration
+* Security compliance
+
+**Answer: CI/CD automation**
+
+---
+
+### **Q290. Which AWS service can automate the entire CI/CD flow from source to deployment?**
+
+* CodeBuild
+* CodePipeline
+* CodeDeploy
+* Inspector
+
+**Answer: CodePipeline**
+
+---
+
+### **Q291. Which AWS service enables infrastructure as code?**
+
+* CloudTrail
+* CloudFormation
+* CloudWatch
+* CodeBuild
+
+**Answer: CloudFormation**
+
+---
+
+### **Q292. CloudFormation templates are written in:**
+
+* Python
+* YAML or JSON
+* Java
+* C++
+
+**Answer: YAML or JSON**
+
+---
+
+### **Q293. CloudFormation helps customers:**
+
+* Deploy infrastructure consistently and repeatably
+* Monitor applications
+* Host containerized applications
+* Analyze logs
+
+**Answer: Deploy infrastructure consistently and repeatably**
+
+---
+
+### **Q294. AWS Systems Manager (SSM) helps with:**
+
+* Managing EC2 OS patching
+* DNS routing
+* Data warehousing
+* Content delivery
+
+**Answer: Managing EC2 OS patching**
+
+---
+
+### **Q295. Systems Manager allows:**
+
+* Application monitoring only
+* Centralized operational control across resources
+* Managing AWS budgets
+* Encrypting S3 data
+
+**Answer: Centralized operational control across resources**
+
+---
+
+### **Q296. SSM Automation documents help:**
+
+* Run audit logs
+* Define automated workflows for operations
+* Cache content globally
+* Perform DNS routing
+
+**Answer: Define automated workflows for operations**
+
+---
+
+### **Q297. Which SSM feature allows running shell scripts remotely?**
+
+* Parameter Store
+* Run Command
+* Patch Manager
+* Session Manager
+
+**Answer: Run Command**
+
+---
+
+### **Q298. SSM Patch Manager automates:**
+
+* IAM permission changes
+* Patching OS across fleets
+* Lambda deployments
+* DNS routing
+
+**Answer: Patching OS across fleets**
+
+---
+
+### **Q299. AWS CloudWatch Alarms trigger actions when:**
+
+* EC2 prices change
+* Metrics breach thresholds
+* Users log in
+* S3 objects are uploaded
+
+**Answer: Metrics breach thresholds**
+
+---
+
+### **Q300. CloudWatch Metrics are used to track:**
+
+* API calls
+* Resource performance (CPU, memory, etc.)
+* Sensitive data
+* Compliance reports
+
+**Answer: Resource performance (CPU, memory, etc.)**
+
+---
+
+### **Q301. AWS Backup is used to:**
+
+* Deploy applications
+* Automate backups across AWS services
+* Cache content at edge locations
+* Manage IAM policies
+
+**Answer: Automate backups across AWS services**
+
+---
+
+### **Q302. AWS Backup supports which resource types?**
+
+* EC2 only
+* Lambda only
+* DynamoDB, EBS, RDS, EFS, etc.
+* Route 53 only
+
+**Answer: DynamoDB, EBS, RDS, EFS, etc.**
+
+---
+
+### **Q303. AWS Backup Vault Lock helps prevent:**
+
+* Cross-region replication
+* Unauthorized deletion or modification of backups
+* CPU spikes
+* IAM access key usage
+
+**Answer: Unauthorized deletion or modification of backups**
+
+---
+
+### **Q304. Which service is used to move large datasets via physical appliances?**
+
+* Snowball
+* DataSync
+* S3 Transfer Acceleration
+* Direct Connect
+
+**Answer: Snowball**
+
+---
+
+### **Q305. AWS Snow Family is designed for:**
+
+* Machine Learning hosting
+* Edge computing & offline data transfer
+* IAM security
+* Real-time monitoring
+
+**Answer: Edge computing & offline data transfer**
+
+---
+
+### **Q306. If a company wants petabyte-scale data transfer offline, which device should they use?**
+
+* Snowball Edge
+* Snowmobile
+* DataSync
+* S3 Transfer Acceleration
+
+**Answer: Snowmobile**
+
+---
+
+### **Q307. AWS DataSync is used to:**
+
+* Transfer data online between on-premises and AWS
+* Trigger serverless functions
+* Inspect EC2 vulnerabilities
+* Deploy code
+
+**Answer: Transfer data online between on-premises and AWS**
+
+---
+
+### **Q308. DataSync is ideal for:**
+
+* Moving PB-scale data offline
+* Migrating NFS/SMB data quickly
+* Managing IAM users
+* Serverless compute orchestration
+
+**Answer: Migrating NFS/SMB data quickly**
+
+---
+
+### **Q309. AWS S3 Transfer Acceleration improves upload speed by using:**
+
+* Larger EC2 instances
+* Edge locations
+* More IAM roles
+* Direct Connect
+
+**Answer: Edge locations**
+
+---
+
+### **Q310. Which AWS tool estimates monthly cloud costs before usage?**
+
+* Cost Explorer
+* AWS Pricing Calculator
+* Trusted Advisor
+* Budgets
+
+**Answer: AWS Pricing Calculator**
+
+---
+
+### **Q311. Which tool gives historical usage and spending trends?**
+
+* Pricing Calculator
+* Trusted Advisor
+* Cost Explorer
+* Inspector
+
+**Answer: Cost Explorer**
+
+---
+
+### **Q312. Which AWS service sets cost limits and sends alerts?**
+
+* Trusted Advisor
+* AWS Budgets
+* Cost Explorer
+* Control Tower
+
+**Answer: AWS Budgets**
+
+---
+
+### **Q313. AWS Cost and Usage Report (CUR) provides:**
+
+* High-level billing summaries only
+* The most detailed cost and usage dataset
+* EC2 auto scaling logs
+* IAM role audit logs
+
+**Answer: The most detailed cost and usage dataset**
+
+---
+
+### **Q314. AWS Organizations allows consolidated billing, meaning:**
+
+* All accounts share EC2 hardware
+* All accounts share a single payment method
+* IAM roles sync automatically
+* All regions replicate data
+
+**Answer: All accounts share a single payment method**
+
+---
+
+### **Q315. Savings Plans apply to:**
+
+* S3 only
+* Databases only
+* Compute usage (EC2, Lambda, Fargate)
+* All AWS services
+
+**Answer: Compute usage (EC2, Lambda, Fargate)**
+
+---
+
+### **Q316. Compute Savings Plans offer savings compared to:**
+
+* Lambda
+* EC2 On-Demand
+* S3 Glacier
+* DynamoDB
+
+**Answer: EC2 On-Demand**
+
+---
+
+### **Q317. Which AWS pricing model provides the steepest discount but allows interruption?**
+
+* On-Demand
+* Reserved Instances
+* Savings Plans
+* Spot Instances
+
+**Answer: Spot Instances**
+
+---
+
+### **Q318. AWS Marketplace provides:**
+
+* Third-party software solutions
+* RDS performance tuning
+* Secrets management
+* Global DNS
+
+**Answer: Third-party software solutions**
+
+---
+
+### **Q319. AWS IQ connects customers with:**
+
+* Freelance AWS experts
+* Support engineers
+* Hardware vendors
+* Data center technicians
+
+**Answer: Freelance AWS experts**
+
+---
+
+### **Q320. Which AWS support plan gives 15-minute response time for business-critical workloads?**
+
+* Basic
+* Developer
+* Business
+* Enterprise
+
+**Answer: Enterprise**
+
+---
