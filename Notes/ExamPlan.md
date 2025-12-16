@@ -69,3 +69,123 @@ The lessons will overlap with the videos in the exam prep course.
 2. Review your score report thoroughly.
 3. Review the questions and the linked documentation provided for correct and incorrect answer options in each question.
 4. Go back to the resources in Step 2 if needed.
+
+
+---
+---
+---
+
+## What topics in the Exam (exam syllabus breakdown)
+
+The exam has **4 domains**, and the course follows this structure.
+
+### ✅ Domain 1: Cloud Concepts (≈24%)
+
+You will learn:
+
+* What **cloud computing** is
+* Benefits of cloud (scalability, elasticity, cost savings)
+* **Deployment models**:
+
+  * Public cloud
+  * Private cloud
+  * Hybrid cloud
+  * Multi-cloud
+* **Cloud economics**:
+
+  * CapEx vs OpEx
+  * Fixed cost vs variable cost
+* AWS **Well-Architected Framework** (high-level only)
+* Cloud adoption & migration strategies
+
+📌 Exam style:
+Mostly **conceptual questions**, no calculations, no coding.
+
+---
+
+### ✅ Domain 2: Security & Compliance (≈30%)
+
+Very important domain.
+
+You must know:
+
+* **Shared Responsibility Model** (ALWAYS appears)
+* Who is responsible: **AWS vs Customer**
+* IAM basics:
+
+  * Root account
+  * Users, roles, policies
+  * Principle of least privilege
+* Compliance concepts:
+
+  * HIPAA, PCI, ISO, SOC
+  * Data residency / sovereignty
+* Basic security services (high-level only)
+
+📌 Exam style:
+
+* Scenario questions like:
+
+  > “Who is responsible for patching the OS on EC2?”
+
+---
+
+### ✅ Domain 3: Cloud Technology & Services (≈34%)
+
+This is the **largest section**.
+
+You must recognize **what service does what**, not how to configure it.
+
+Core services:
+
+* **Compute**: EC2, Lambda
+* **Storage**: S3, EBS
+* **Databases**: RDS, DynamoDB
+* **Networking**: VPC, Route 53
+
+Other service categories (high-level):
+
+* Containers
+* Analytics
+* Machine Learning
+* Monitoring
+* Application integration
+
+📌 Exam style:
+
+* “Which AWS service should you use for X?”
+* Archive storage, databases, serverless compute, etc.
+
+---
+
+### ✅ Domain 4: Billing, Pricing & Support (≈12%)
+
+You will learn:
+
+* AWS pricing basics (pay-as-you-go)
+* Free tier
+* Cost management tools
+* AWS Support plans
+* Trusted Advisor basics
+
+📌 Exam style:
+
+* Support plan questions
+* Cost optimization awareness
+
+---
+
+## What kind of exam questions 
+* **65 questions total**
+
+  * 50 scored
+  * 15 unscored (experimental)
+* Question types:
+
+  * Multiple choice
+  * Multiple answer
+* **No coding**
+* **No diagrams**
+* **No troubleshooting**
+* **No hands-on tasks**
+
