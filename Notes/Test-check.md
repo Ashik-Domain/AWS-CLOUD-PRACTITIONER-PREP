@@ -4,3 +4,4 @@
 - [AWS CertMetrics Dashboard](https://cp.certmetrics.com/amazon/en/home/dashboard)
 - [AWS Certification Information and Policies](https://aws.amazon.com/certification/policies/)
 - [AWS Certified Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/?ch=sec&sec=rmg&d=1)
+- [AWS Exam Prep Plan](https://skillbuilder.aws/category/exam-prep/cloud-practitioner-foundational)
