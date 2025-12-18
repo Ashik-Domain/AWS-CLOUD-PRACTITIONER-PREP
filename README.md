@@ -9,6 +9,34 @@ This repository contains comprehensive notes I prepared while studying for the *
 
 ## 🎯 What's Inside
 
+### Repository Structure
+
+```
+├── README.md                          # Main landing page
+├── PREPARATION_GUIDE.md               # Official AWS 4-step exam prep process
+├── EXAM_SUMMARY.md                    # Consolidated summary of all 4 domains
+├── Test-check.md                      # Exam info and preparation experience
+├── Notes/                             # Detailed module-wise notes
+│   ├── 1ModuleIntro.md
+│   ├── 2ComputeInCloud.md
+│   ├── 3ComputeServices.md
+│   ├── 4GoingGlobal.md
+│   ├── 5Network.md
+│   ├── 6Storage.md
+│   ├── 7Databases.md
+│   ├── 8AI-ML.md
+│   ├── 9Security.md
+│   ├── 10Monitoring.md
+│   ├── 11Pricing.md
+│   ├── 12Migration_to_aws.md
+│   └── 13WellArchitecture.md
+└── ExamDomains/                       # Exam pattern-focused summaries
+    ├── ExamDomain1.md                 # Cloud Concepts (~24%)
+    ├── ExamDomain2.md                 # Security & Compliance (~30%)
+    ├── ExamDomain3.md                 # Technology & Services (~34%)
+    └── ExamDomain4.md                 # Billing & Support (~12%)
+```
+
 The repository is organized into two main sections:
 
 ### 📖 Module Notes (1-13): Full Concepts
@@ -46,7 +74,7 @@ Each domain file contains:
 
 1. **For Complete Learning**: Start with Module 1-13 for in-depth understanding of AWS concepts
 2. **For Quick Revision**: Use the Exam Domain files for focused, exam-pattern-based review
-3. **Before the Exam**: Review `Notes.md` for a consolidated summary of all four domains
+3. **Before the Exam**: Review `EXAM_SUMMARY.md` for a consolidated summary of all four domains
 
 ## 📝 My Preparation Strategy
 
@@ -70,7 +98,6 @@ The AWS Certified Cloud Practitioner exam tests your knowledge across four domai
 **Exam Format:**
 - 65 questions (50 scored + 15 unscored)
 - 90 minutes
-- Passing score: 700/1000
 
 ## 📚 Recommended Resources
 
@@ -121,3 +148,5 @@ Feel free to reach out if you have questions or want to discuss AWS concepts!
 ---
 
 ### 🏆 Exam Status: PASSED ✅
+
+*Last Updated: December 2024*
