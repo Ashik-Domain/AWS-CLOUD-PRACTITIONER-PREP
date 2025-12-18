@@ -149,4 +149,3 @@ Feel free to reach out if you have questions or want to discuss AWS concepts!
 
 ### 🏆 Exam Status: PASSED ✅
 
-*Last Updated: December 2024*
